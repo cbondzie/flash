@@ -151,7 +151,7 @@ while 1:
                 print ctime(),
                 print(";1;"),
                 print("Il fait nuit." if it_is_night else "Il fait jour."),
-                print(" pas d'avion dans la zone le flash est allume,on incremente le compteur")
+                print(" pas d'avion dans la zone le flash est allumé,on incremente le compteur")
                 print("le compteur vaut : "),
                 print compteur_stop
 
