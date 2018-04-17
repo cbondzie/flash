@@ -143,6 +143,8 @@ while 1:
                 print(";0;"),
                 print("Il fait nuit." if it_is_night else "Il fait jour."),
                 print(" pas d'avion dans la zone, flash eteint."),
+		print ";",
+            	print matches,
                 print("---------------------------------------")
             else:
                 compteur_stop += 1
@@ -153,7 +155,9 @@ while 1:
                 print("Il fait nuit." if it_is_night else "Il fait jour."),
                 print(" pas d'avion dans la zone le flash est allumé,on incremente le compteur")
                 print("le compteur vaut : "),
-                print compteur_stop
+                print compteur_stop,
+		print ";",
+            	print matches
 
         f.close()
         os.remove('/home/pi/log_avions.txt')
