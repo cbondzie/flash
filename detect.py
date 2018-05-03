@@ -81,7 +81,6 @@ while 1:
                     print "le message de l avion est incomplet"
         f.close()
         os.remove('/home/pi/log_avions.txt')     
-        time.sleep(1)
         print Liste
         if loop >= 1 and loop < cycle :
         # Rechercher dans la liste la presence de l avion 
